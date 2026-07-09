@@ -1,0 +1,235 @@
+.top{
+    background-color: rgba(1, 174, 231, 1);
+    padding: 71px 271px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    span{
+        color: rgba(255, 245, 0, 1);
+        text-align: center;
+        margin-bottom: 43px;
+        font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 13px;
+line-height: 100%;
+letter-spacing: 0%;
+    }
+    h2{
+        font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 35px;
+margin-bottom: 43px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: white;
+    }
+    b{
+        font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+color: white;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 20px;
+    }
+}
+
+.top{
+    text-align: center;
+    margin: 60px 0;
+}
+
+.props{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin-left: 40px;
+    margin-bottom: 70px;
+}
+
+.card{
+    text-align: center;
+    h1{
+        font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 22px;
+color: rgba(1, 174, 231, 1);
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+width: 295px;
+padding-top: 17px;
+padding-bottom: 12px;
+    }
+    p{
+        font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+color: rgba(0, 0, 0, 1);
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+width: 295px;
+    }
+}
+
+.top5 {
+    width: 100%;
+    border-top: 2px solid #2bb8f5;
+    position: relative;
+    margin: 60px 0 40px;
+}
+
+.top5 span {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #16b5ef;
+    color: white;
+    padding: 10px 40px;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    color: #222;
+    line-height: 1.3;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #2bb8f5;
+    padding-bottom: 40px;
+}
+
+.banner {
+    background-image: url("../assets/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 717px;
+}
+
+.overlay{
+    width: 1318px;
+    height: 618px;
+    background: rgba(0, 0, 0, 0.5); 
+   position: relative;
+   top: 50px;
+   left: 90px;
+   h4{
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 15px;
+color: rgba(255, 245, 0, 1);
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+text-align: center;
+padding: 43px;
+   }
+   h1{
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+color: white;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+width: 580px;
+margin-left: 360px;
+span{
+    color: #16b5ef;
+}
+   }
+}
+
+
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.form-box input{
+    width: 260px;
+    height: 55px;
+    border: none;
+    outline: none;
+    background: #fff;
+    padding: 0 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+.phone{
+    width: 260px;
+    height: 55px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.phone span{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.phone input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-box button{
+    width: 260px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    background: #08B5F4;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.form-box button:hover{
+    background: #0097d8;
+}
+
+.policy-text {
+    width: 100%;
+    margin-top: 32px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
