@@ -24,11 +24,11 @@ function Footer() {
           <div>
             <h3 className="font-bold text-base mb-5 uppercase">ИНФОРМАЦИЯ</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:underline transition">О БРЕНДЕ</a></li>
-              <li><a href="#" className="hover:underline transition">ПРЕИМУЩЕСТВА</a></li>
-              <li><a href="#" className="hover:underline transition">ОТКРЫТЬ КЛУБ</a></li>
-              <li><a href="#" className="hover:underline transition">ПРОДУКЦИИ</a></li>
-              <li><a href="#" className="hover:underline transition">КОНТАКТЫ</a></li>
+              <li><a href="/Abdumalik" className="hover:underline transition">О БРЕНДЕ</a></li>
+              <li><a href="/Muslima" className="hover:underline transition">ПРЕИМУЩЕСТВА</a></li>
+              <li><a href="/Solixa" className="hover:underline transition">ОТКРЫТЬ КЛУБ</a></li>
+              <li><a href="/" className="hover:underline transition">ПРОДУКЦИИ</a></li>
+              <li><a href="/Sarvar" className="hover:underline transition">КОНТАКТЫ</a></li>
             </ul>
           </div>
 
