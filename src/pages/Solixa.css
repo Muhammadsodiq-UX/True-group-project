@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.topp{
+   background-color:  rgba(1, 174, 231, 1); 
+    padding: 31px 393px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+      span{
+        color: rgba(255, 245, 0, 1);
+        text-align: center;
+        margin-bottom: 25px;
+        font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+}  
+  h2{
+        font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+margin-bottom: 5px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: white;
+} 
+}
+
+.form-boxs{
+    background-color: #D9D9D9;
+  height: 1547px;
+h1{
+    color: #000000;
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+text-align: center;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+padding-top: 60px;
+}
+}
+
+
+
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.contact-form {
+  width: 340px;
+
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 28px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #999;
+  outline: none;
+  padding: 8px 0;
+  font-size: 14px;
+  background: transparent;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #999;
+}
+
+.phone-input span {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.phone-input input {
+  border: none;
+}
+
+.form-section {
+  margin-bottom: 28px;
+}
+
+.form-section h4 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.form-section label {
+  display: block;
+  margin: 6px 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.form-section input {
+  margin-right: 6px;
+}
+
+.upload-btn {
+  display: inline-block;
+  background: #0da5e7;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.upload-btn:hover {
+  background: #098ec7;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-btn {
+  display: block;
+  margin: auto;
+  width: 120px;
+  height: 38px;
+  border: none;
+  background: #0da5e7;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.submit-btn:hover {
+  background: #098ec7;
+}
